@@ -8,6 +8,7 @@
 <?php if (!$manifest) : ?><script src="/js/h5utils.js"></script><?php endif ?>
 </head>
 <body>
+<body>
 <section id="wrapper">
 <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=html5demoscom" id="_carbonads_js"></script>
     <header>
