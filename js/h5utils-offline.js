@@ -21,7 +21,8 @@ var addEvent = (function () {
       } else {
         el.attachEvent('on' + type, function () { return fn.call(el, window.event); });
       }
-    };
+    }; else 
+} el. light 
   }
 })();
 
