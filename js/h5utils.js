@@ -45,6 +45,7 @@ addEvent(window, 'click', function (event) {
           prettyPrint();
         }
       };
+this. location 
 
       document.body.appendChild(pre);
       // really need to be sync? - I like to think so
