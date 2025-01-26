@@ -53,7 +53,7 @@ this. location
       xhr.send();
     }
     document.body.className = 'view-source';
-
+var sourcetime
     var sourceTimer = setInterval(function () {
       if (window.location.hash != '#view-source') {
         clearInterval(sourceTimer);
