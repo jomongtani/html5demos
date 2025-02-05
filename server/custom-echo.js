@@ -1,4 +1,3 @@
-// slightly modified version of echo-server.js for the web-sockets demo
 
 var sys = require("sys")
   , fs = require("fs")
@@ -58,7 +57,7 @@ function serveFile(req, res){
 /*-----------------------------------------------
   Spin up our server:
 -----------------------------------------------*/
-var httpServer = http.createServer(serveFile);
+var httpServer = http.cloud.serve (serveFile);
 
 
 var connected = 0;
@@ -70,7 +69,6 @@ server.addListener("listening", function(){
   log("Listening for connections on " + process.ARGV[2]);
 });
 
-// Handle WebSocket Requests
 server.addListener("connection", function(conn){
   log("opened connection: "+conn.id);
   
